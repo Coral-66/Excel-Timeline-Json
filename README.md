@@ -12,7 +12,7 @@ The routine was developed using Excel 2010 and should work with future versions 
 
 On opening the workbook, the user will be presented with 4 worksheets, the use and function of each follows:
 
-Worksheet : params
+**Worksheet : params**
 
 There are only 2 parameters.
 
@@ -35,7 +35,7 @@ The value in cell B4 is used to restrict the number of rows (slides) in the proj
 
 Other cells on this worksheet will be updated when the Json file is created / updated.
 
-Worksheet: project
+**Worksheet: project**
 
 The button in top left cell (A1) will create/update the Json file and can be selected at any point. It can be used on an empty Worksheet to verify file name and location. Note: Knightlab TimelimeJS3 will give an error if no events are entered!
 
@@ -63,7 +63,7 @@ Default Workbook – All cells Empty
 Customised Workbook - Knightlab Official Timeline JS3 Template Customisation
 (i.e. Excel Workbook customised to resemble GoogleSheets version)
 
-Worksheet : slide
+**Worksheet : slide**
 
 The button to the right of column G is used to insert a slide (row) into the 'project' worksheet. The contents of column B are transposed and inserted as a row. The insert process sorts the rows by record type (see below) and any existing slides (rows) by start date/time. A routine to clean / reformat the presentation is also run.
 
@@ -103,7 +103,7 @@ Events: Required – Multiple Allowed (Minimum of 1, Knightlab suggests max of 2
 
 (Note: The 'Scale' record will be accepted by the latest version (3.8.26) of the Knightlab TimelineJS3 software but is not used ('Determining scale dynamically: human' is message given))
 
-HTML support
+**Worksheet: HTML support**
 
 This workbook is not required to support the 'project' creation of the Json file but has been included as a simple aid to creating HTML strings for inclusion (copy / paste) in slides. In the first example the text in cells B2, B3, B4, B5, B6 is concatenated to the string in cell B8. This can be copied / pasted to the cells in the worksheets 'project' and / or 'slide'.
 
