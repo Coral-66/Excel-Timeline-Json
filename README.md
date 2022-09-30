@@ -112,11 +112,14 @@ Cells B11,B12,B13,B14,B15 are concatenated to Cell B17 and offer a slightly diff
 The ZIP file attached has the following files:
 
 Develop.xlsm - Project Workbook with no content
+
 Excel Official TimelineJS3.xslm - The Knightlab Official Google Sheets Example in Excel
 (Customised Project Workbook with Content)
 
 Develop.json - Json version of empty workbook (gives error: No Events)
+
 Excel Official TimelineJS3.Json - The Json file for the Official Example, Excel generated
+
 Whitney.json - Excel generated Json file
 (Created by taking Json file from Knightlab Github source)
 Converted to Excel by free web JSON to EXCEL converter
@@ -128,6 +131,7 @@ Whitney Screenshot.jpg Screen Shot of from Whitney Timeline
 
 Localhost-Joomla Notes.pdf Notes on setting up a Local server / Joomla environment for
 local in-house timeline development
+
 Article.txt File to create TimelineHS3 options Joomla Article Call
 Timeline Options.pdf PDF version of Article.txt
 
